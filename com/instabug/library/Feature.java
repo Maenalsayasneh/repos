@@ -1,0 +1,38 @@
+package com.instabug.library;
+/* loaded from: classes2.dex */
+public enum Feature {
+    INSTABUG,
+    CRASH_REPORTING,
+    ANR_REPORTING,
+    PUSH_NOTIFICATION,
+    WHITE_LABELING,
+    IN_APP_MESSAGING,
+    TRACK_USER_STEPS,
+    REPRO_STEPS,
+    MULTIPLE_ATTACHMENTS,
+    INSTABUG_LOGS,
+    USER_DATA,
+    CONSOLE_LOGS,
+    SURVEYS,
+    VIEW_HIERARCHY_V2,
+    USER_EVENTS,
+    DISCLAIMER,
+    SESSION_PROFILER,
+    FEATURE_REQUESTS,
+    VP_CUSTOMIZATION,
+    ANNOUNCEMENTS,
+    BUG_REPORTING,
+    CHATS,
+    DEPRECATED_CHATS,
+    REPLIES,
+    BE_USER_ATTRIBUTES,
+    REPORT_PHONE_NUMBER,
+    VZ_MESSAGES_CUSTOM_APPRATING_UI,
+    SDK_ANALYTICS;
+
+    /* loaded from: classes2.dex */
+    public enum State {
+        ENABLED,
+        DISABLED
+    }
+}

@@ -1,0 +1,15 @@
+package s0.a.b;
+/* loaded from: classes4.dex */
+public interface n {
+    int doFinal(byte[] bArr, int i);
+
+    String getAlgorithmName();
+
+    int getDigestSize();
+
+    void reset();
+
+    void update(byte b);
+
+    void update(byte[] bArr, int i, int i2);
+}
